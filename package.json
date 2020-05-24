@@ -1,5 +1,5 @@
 {
-  "name": "ginit",
+  "name": "ddbloadjson",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "ginit": "./index.js"
+    "ddbloadjson": "./index.js"
   },
   "keywords": [
     "Git",
@@ -18,5 +18,11 @@
   "devDependencies": {
     "eslint": "^7.1.0",
     "prettier": "2.0.5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.683.0",
+    "command-line-usage": "^6.1.0",
+    "minimist": "^1.2.5",
+    "minimist-options": "^4.1.0"
   }
 }
